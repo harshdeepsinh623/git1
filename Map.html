@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adminator Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+        .stats {
+            font-size: 14px;
+            word-spacing: 2px;
+        }
+
+        .stats font {
+            display: inline-block;
+            padding: 5px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .stats i {
+            font-size: 24px;
+        }
+
+        .sidebar-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sidebar td {
+            letter-spacing: 5px;
+            font-size: 16px;
+        }
+
+        .sidebar i {
+            font-size: 15px;
+            color: blue;
+        }
+
+        .sidebar td:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        .range-data {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+ 
+        <tr>
+            <td style="font-size: 30px;" width="25%">
+                <img src="Screenshot 2024-09-19 160851.png" alt="Adminator">
+                Adminator
+            </td>
+            
+            <td colspan="3">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </td>
+            
+            <td style="text-align: right;">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <font>John Doe</font>
+            </td>
+        </tr>
+
+        <!-- Stats Section -->
+        <tr>
+            <td class="sidebar">
+                <i class="fa-solid fa-house" style="color: blue;"></i> Dashboard
+            </td>
+
+            <td class="stats">Total Visits<br>
+                <i class="ri-bar-chart-grouped-line" style="color: green;"></i>
+                <font style="border: 2px solid black; background-color: lightgreen; color: green;">+10%</font>
+            </td>
+            <td class="stats">Total Page Views<br>
+                <i class="ri-bar-chart-grouped-line" style="color: purple;"></i>
+                <font style="border: 2px solid black; background-color: rgb(217, 173, 173); color: red;">-7%</font>
+            </td>
+            <td class="stats">Unique Visitor<br>
+                <i class="ri-bar-chart-grouped-line" style="color: skyblue;"></i>
+                <font style="border: 2px solid black; background-color: rgb(201, 116, 201); color: purple;">-12%</font>
+            </td>
+            <td class="stats">Bounce Rate<br>
+                <i class="ri-bar-chart-grouped-line" style="color: red;"></i>
+                <font style="border: 2px solid black; background-color: rgb(146, 221, 238); color: rgb(0, 174, 242);">
+                    +33%</font>
+            </td>
+
+            <tr>
+                <td class="sidebar"><i class="fa-regular fa-envelope" style="color: darkblue;"></i> Email</td>
+                
+                <td align="right" colspan="3">
+                    <img src="C:\Users\DELL\Desktop\Red and white folder\HTML\Screenshot 2024-09-19 164850.png" alt="Map Image"
+                        style="width: 700px;"></td>
+                
+                <td>
+                    <div class="range-data">100k <br>Visitors from USA</div>
+                    <input type="range" min="0" max="100" value="50">
+                    <div class="range-data">1M <br>Visitors from Europe</div>
+                    <input type="range" min="0" max="100" value="80">
+                    <div class="range-data">450k <br>Visitors from Australia</div>
+                    <input type="range" min="0" max="100" value="40">
+                    <div class="range-data">1B <br>Visitors from India</div>
+                    <input type="range" min="0" max="100" value="90">
+                </td>
+                
+                </td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-arrow-up-right-from-square" style="color: skyblue;"></i> Compose
+                </td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-regular fa-calendar" style="color: red;"></i> Calendar</td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-message" style="color: gray;"></i> Chat</td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-sharp fa-solid fa-chart-simple" style="color: gray;"></i> Charts</td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-pen" style="color: blue;"></i> Forms</td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-palette" style="color: red;"></i> UI Elements</td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-table" style="color: orange;"></i> Tables <i
+                        class="fa-solid fa-arrow-right"></i></td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-map" style="color: purple;"></i> Maps <i
+                        class="fa-solid fa-arrow-right"></i></td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-file" style="color: red;"></i> Pages <i
+                        class="fa-solid fa-arrow-right"></i></td>
+            </tr>
+            <tr>
+                <td class="sidebar"><i class="fa-solid fa-arrow-down-wide-short" style="color: blue;"></i> Multiple Levels
+                    <i class="fa-solid fa-arrow-right"></i>
+                </td>
+
+            </tr>
+        </tr>
+        
+    </table>
+
+</body>
+
+</html>
